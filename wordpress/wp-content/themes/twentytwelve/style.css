@@ -508,7 +508,7 @@ a:hover {
 .main-navigation .assistive-text:hover,
 .main-navigation .assistive-text:active,
 .main-navigation .assistive-text:focus {
-	background: #fff;
+	background: #7cc96a;
 	border: 2px solid #333;
 	border-radius: 3px;
 	clip: auto !important;
