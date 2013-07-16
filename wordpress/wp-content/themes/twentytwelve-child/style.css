@@ -30,7 +30,7 @@ hr {
 
 
 .widget-area {
-	/*float: left;*/
+	float: none;
 	width: 26.041666667%;
 }
 
@@ -42,7 +42,14 @@ border-top: 3px solid #32CD32;
 border-bottom: 3px solid #32CD32;
 
 
+
 ul {
   color:#000;
 }
+
+#respond .form-allowed-tags {
+    display:none !important;
+}
+	
+
 

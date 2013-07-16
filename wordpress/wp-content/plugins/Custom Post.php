@@ -28,5 +28,9 @@ function create_post_type() {
 		hierarchical => true, 
 		'menu_position' => 5, 
 	);
+
+	p.form-allowed-tags {
+    display: none;
+}
 }
 

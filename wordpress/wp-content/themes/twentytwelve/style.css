@@ -1724,4 +1724,8 @@ img#wpstats {
 		margin-left: 50px;
 		margin-left: 3.57142857rem;
 	}
+
+	#respond .form-allowed-tags {
+    display:none !important;
+
 }
