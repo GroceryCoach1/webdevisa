@@ -23,7 +23,6 @@ function Food_CancerPreventers() {
 
 
 
-
 function CancerPreventers_init() {
     // create a new taxonomy
     register_taxonomy(
@@ -43,7 +42,21 @@ add_action( 'init', 'cancerpreventers_init' );
 
 
 
-
+function gout_init() {
+    // create a new taxonomy
+    register_taxonomy(
+        'gout',
+        'post',
+        array(
+            'label' => __( 'gout' ),
+            'rewrite' => array( 'slug' => 'gout' ),
+            'capabilities' => array(
+                 'hierarchical' => true,
+            )
+        )
+    );
+}
+add_action( 'init', 'gout_init' );
 
 
 /* Stop Adding Functions Below this Line */
