@@ -59,5 +59,24 @@ function gout_init() {
 add_action( 'init', 'gout_init' );
 
 
+
+
+function keepmoving_init() {
+    // create a new taxonomy
+    register_taxonomy(
+        'keepmoving',
+        'post',
+        array(
+            'label' => __( 'keepmoving' ),
+            'rewrite' => array( 'slug' => 'keepmoving' ),
+            'capabilities' => array(
+                 'hierarchical' => true,
+            )
+        )
+    );
+}
+add_action( 'init', 'keepmoving_init' );
+
+
 /* Stop Adding Functions Below this Line */
 ?>
