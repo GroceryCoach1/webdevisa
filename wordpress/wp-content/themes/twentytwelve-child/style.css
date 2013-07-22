@@ -19,9 +19,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url("../twentytwelve/style.css");
 
-}
+
 hr {
-	background-color: ##00FF00;
+	background-color: #00FF00;
 	border: 0;
 	height: 1px;
 	margin: 24px;
@@ -30,21 +30,10 @@ hr {
 
     
     
-}
-
-
-
-.nav-menu
-{
-background-color: #00CC00;
-border-top: 3px solid #32CD32;
-border-bottom: 3px solid #32CD32;
-
-}
 
 .main-navigation ul.nav-menu,
     .main-navigation div.nav-menu > ul {
-        background-color: ##C0C0C0 ;
+        background-color: #C0C0C0 ;
         border-top: 3px solid #606060;
         border-bottom: 3px solid #606060;
         display: inline-block !important;
@@ -61,7 +50,7 @@ border-bottom: 3px solid #32CD32;
 
 .widget-area .widget p,
 .widget-area .widget li,
-.widget-area .widget .textwidget {
+.widget-area .widget .textwidget 
     font-size: 13px;
     font-size: 0.928571429rem;
     line-height: 4.846153846;
